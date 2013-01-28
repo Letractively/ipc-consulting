@@ -66,6 +66,8 @@
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/init.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/menu-addendum.js"> </script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.validate.min.js"> </script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/formhandler.js"> </script>
+
 <!--Overlay by Targetweb ver 1.0-->
 <script>
 $(document).ready(function() {
@@ -123,27 +125,22 @@ include_once 'aevo_library.php';
 				<div id="area_riservata">
 					<div id="accesso_riservato"></div>	
 					<div id="frmlogin">
-						<form action="https://raccoltadati.ipcconsulting.it/index.php" method="post" id="login">
+						<form name="myform" onsubmit="return OnSubmitForm();">
 							<fieldset>
 								
 								<input name="login_userid" id="login_userid" type="text" value="" class="login_user" style="padding:0" placeholder="  nome utente">
 								<input name="login_password" id="login_password" type="password" value="" class="login_pw" placeholder="  password" >
+								<input id="recovery_req" name="recovery_req" type="hidden" value="" /> 
 								<label class="invio">
-									<input name="Invia" type="submit"  value="entra" class="invio1" /></label>
-								</fieldset>
-						</form>
-						<form action="https://raccoltadati.ipcconsulting.it/index.php" method="post" id="recovery" style="position: absolute;top: 114px;left: 56px;">
-							<fieldset>
-								<input name="recovery_req" type="hidden" value="yes" />
-								<label><input name="Invia" type="submit" value="recupera dati" class="recupera" /></label>
+									<input name="Invia" type="submit"  value="entra" class="invio1" onclick="document.pressed=this.value"  />
+									<input name="Invia" type="submit" value="recupera dati" class="recupera" onclick="document.pressed=this.value" />
+								</label>
 							</fieldset>
 						</form>
 						<div id="iscrizione">non sei ancora nostro cliente? compila il <a href="<?php echo get_bloginfo('url')."/?p=979";?>">form</a>
 						</div>	
 					</div>	
-				<div class="pulito"></div>
-						
-						
+					<div class="pulito"></div>
 				</div>  <!--fine box-->
 				<div id="ipc_motto">
 					"Impegno, competenza e soluzioni efficaci per aiutare i nostri clienti ad ottenere il miglior risultato possibile."

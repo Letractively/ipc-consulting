@@ -70,7 +70,8 @@ function RssNewsDisplay($setting)
 			$tre_mesi = $un_mese*3;
 			if ($diff < $tre_mesi) 
 				{
-				echo '<p><a target="_blank" href="'.$rssnews_link.'"><span >'.$rssnews_category.' -- </span><span style="font-weight: bold;">'.$rssnews_date.'</span>'.': '.$rssnews_title.'</a></p>';
+				//echo '<p><a target="_blank" href="'.$rssnews_link.'"><span >'.$rssnews_category.' -- </span><span style="font-weight: bold;">'.$rssnews_date.'</span>'.': '.$rssnews_title.'</a></p>';
+				echo '<p><a target="_blank" href="'.$rssnews_link.'">'.$rssnews_title.'</a></p>';
 				};
 		}
 	}
