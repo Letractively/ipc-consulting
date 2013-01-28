@@ -3,7 +3,7 @@
 = rel. 0.4	23/01/2013 =
 	==Aggiunto :== 
   * Quarta immagine slider : piattaforme 
-        ==Modifiche:== 
+==Modifiche:== 
   * ACCESSO PIATTAFORME : “FORM” rosso 
   * Servizi : i post vengono visualizzati secondo l'ordine ascendente del capo personalizzato posizione. 
   * Immagine background box Banner 
