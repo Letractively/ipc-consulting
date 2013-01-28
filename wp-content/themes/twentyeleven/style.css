@@ -752,7 +752,7 @@ ul.social32 li a.rss{background-position:-456px 0px}
 .ss_sharing_container{position:relative;border-bottom:1px solid #efefef;margin:0px 0px 20px;padding:0px 0px 20px}
 /******************************************************************	AREA RISERVATA*******************************************************************/
 #area_riservata {	position: absolute;	color:#FFFFFF;	top: 33px;	left: 815px;}
-#area_riservata {	border:none;	background: url('images/ipc_area_riservata.png');	width:143px;height: 187px;	text-align: left;	padding-left: 3px;	}
+#area_riservata {	border:none;	background: url('images/ipc_area_riservata.png');	width:143px;height: 187px;	text-align: left;	padding-left: 3px;	background-repeat: no-repeat;}
 #area_riservata a{	color:red;}
 #area_riservata1 {	border:none;	background: url('images/ipc_area_riservata.png');	width:143px;height: 187px;	text-align: left;	padding-left: 3px;	}
 #area_riservata1 a{	color:red;}
@@ -766,13 +766,13 @@ input[type="button"], button {padding: 0;}
  #box{ width: 380px;height: 250px;background-color: #737373;display: none;z-index: +300;position: absolute;left: 60%;top: 35%;-moz-border-radius: 15px;-webkit-border-radius: 15px;border-radius: 15px;}
 .titolo_box{font-size: 10px;font-family: Verdana;font-weight: bold;margin-top: 20px;margin-left: 10px;color: whiteSmoke;}
 #accesso_riservato{color:#FFFFFF;font-family: verdana;font-size: 9px;text-transform: uppercase;margin: 10px 0 0 5px;width: 100%;height:14px;background-image:url('images/area_riservata.png');background-repeat:no-repeat;}
-#frmlogin{font-family: verdana;font-size: 10px;color: white;margin-left: 5px;margin-top: 20px;}
+#frmlogin{font-family: verdana;font-size: 10px;color: white;margin-left: 5px;margin-top: 20px;margin-right: 10px;}
 .login_user{font-family: verdana;font-size: 10px;padding: 0px;font-family: verdana;height: 21px;width: 123px;}
 .login_pw{font-family: verdana;font-size: 10px;margin-top: 10px;padding: 0px;font-family: verdana;height: 21px;width: 123px;}
 .invio{font-family: verdana;font-size: 10px;color: white;}
-.invio1{border: none;background-color: red;cursor: pointer;font-family: verdana;font-size: 9px;color: white;height:21px;margin-top: 10px;}
-.recupera{font-family: verdana;font-size: 9px;color: white;border: none;background-color: #737373;height:21px;cursor: pointer;}
-#iscrizione{color: #003366;font-family: verdana;font-size: 11px;text-transform: uppercase;width: 100%;position: relative;font-weight: bold;line-height: 1.2em;margin-top:8px;}
+.invio1{border: none;background-color: red;cursor: pointer;font-family: verdana;font-size: 9px;color: white;height:21px;width:38px;margin-top: 8px;}
+.recupera{font-family: verdana;font-size: 9px;color: white;border: none;background-color: #737373;height:21px;width:78px;cursor: pointer;float: right;margin-top: 8px;}
+#iscrizione{color: #003366;font-family: verdana;font-size: 11px;text-transform: uppercase;width: 100%;position: relative;font-weight: bold;line-height: 1.2em;margin-top:8px;margin-left: 3px;}
 /******************************************************************	form*******************************************************************/
 #nome{width: 280px;margin-bottom:5px;}
 #cognome {width: 280px;margin-bottom:5px;}
