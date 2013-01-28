@@ -6,13 +6,13 @@
         ==Modifiche:== 
   * ACCESSO PIATTAFORME : “FORM” rosso 
   * Servizi : i post vengono visualizzati secondo l'ordine ascendente del capo personalizzato posizione. 
-  *Immagine background box Banner 
-  *Immagine slider Leasing 
-  *Mediazione Factor / Mediazione Leasing -> Factor / Leasing 
-  *Formattazione Area Piattaforme 
-  *Banner punta ad articolo Cosa facciamo 
-  *Layout Cosa facciamo 
-  *Layout Dove siamo 
+  * Immagine background box Banner 
+  * Immagine slider Leasing 
+  * Mediazione Factor / Mediazione Leasing -> Factor / Leasing 
+  * Formattazione Area Piattaforme 
+  * Banner punta ad articolo Cosa facciamo 
+  * Layout Cosa facciamo 
+  * Layout Dove siamo 
         ==Bug fix :== 
-  *bug IE 8 -> colore di background :white 
-  *bug IE 8 -> menu su hover User Manual rel 0.4
+  * bug IE 8 -> colore di background :white 
+  * bug IE 8 -> menu su hover User Manual rel 0.4
