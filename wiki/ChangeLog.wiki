@@ -2,10 +2,10 @@
 
 = rel. 0.4	23/01/2013 =
 	==Aggiunto :== 
-*Quarta immagine slider : piattaforme 
-==Modifiche:== 
-*ACCESSO PIATTAFORME : “FORM” rosso 
-*Servizi : i post vengono visualizzati secondo l'ordine ascendente del capo personalizzato posizione. 
+* Quarta immagine slider : piattaforme 
+        ==Modifiche:== 
+* ACCESSO PIATTAFORME : “FORM” rosso 
+* Servizi : i post vengono visualizzati secondo l'ordine ascendente del capo personalizzato posizione. 
 *Immagine background box Banner 
 *Immagine slider Leasing 
 *Mediazione Factor / Mediazione Leasing -> Factor / Leasing 
@@ -13,6 +13,6 @@
 *Banner punta ad articolo Cosa facciamo 
 *Layout Cosa facciamo 
 *Layout Dove siamo 
-==Bug fix :== 
+        ==Bug fix :== 
 *bug IE 8 -> colore di background :white 
 *bug IE 8 -> menu su hover User Manual rel 0.4
