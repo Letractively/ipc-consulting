@@ -2,7 +2,7 @@
 
 = rel. 0.5	28/01/2013 =
 ==Modifiche:== 
-  * elinato dalle news: la categoria e la data
+  * eliminato dalle news: la categoria e la data
 ==Bug fix :== 
   * HOME PAGE - form button not on same line
   *
