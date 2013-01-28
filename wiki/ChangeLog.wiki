@@ -5,7 +5,6 @@
   * eliminato dalle news: la categoria e la data
 ==Bug fix :== 
   * HOME PAGE - form button not on same line
-  *
 = rel. 0.4	23/01/2013 =
 ==Aggiunto :==
   * Quarta immagine slider : piattaforme 
