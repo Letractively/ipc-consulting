@@ -2,6 +2,8 @@
 
 = rel. 0.5	28/01/2013 =
 
+==Bug fix :== 
+* HOME PAGE - form button not on same line
 = rel. 0.4	23/01/2013 =
 ==Aggiunto :==
   * Quarta immagine slider : piattaforme 
