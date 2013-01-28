@@ -1,5 +1,7 @@
 #change log about development of IPC Consulting web site.
 
+= rel. 0.5	28/01/2013 =
+
 = rel. 0.4	23/01/2013 =
 ==Aggiunto :==
   * Quarta immagine slider : piattaforme 
