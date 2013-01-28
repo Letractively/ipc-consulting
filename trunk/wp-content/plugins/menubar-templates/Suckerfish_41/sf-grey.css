@@ -1,0 +1,306 @@
+/* 
+	WordPress Menubar Plugin
+	sf-grey.css stylesheet for the Suckerfish_41 template
+
+	Credits:
+	Son of Suckerfish Dropdowns
+	By Patrick Griffiths and Dan Webb
+	http://www.htmldog.com/articles/suckerfish/dropdowns/
+	Modified by Wolly aka Paolo Valenti
+	http://www.paolo.valenti.name/
+*/
+.ipc_menu_hp {
+	/*position:absolute;
+	left: 390px;*/
+	
+	}
+	
+.ipc_menu_hp  ul{
+	margin:0px;
+}	
+	
+.ipc_menu_hp ul li {
+float: left;
+}
+	
+.ipc_menu_hp a{
+	display:block;
+	font-family: Verdana;
+	font-weight: normal;
+	width:auto;
+	height:110px;
+	color: #FFFFFF;
+	padding: 50px 13px 0 13px;
+		}
+	
+.ipc_menu_hp.selected  { 
+	
+	text-decoration: none;
+	/*
+	color: #6f879a;
+	*/
+	color: #FFFFFF;
+	font-weight: bold;
+	width:auto ;
+	height:110px;
+	/*
+	background-image: url('ipc_sfondo_menu.png');
+	background-repeat:repeat-x;
+	*/
+	
+}
+
+.ipc_menu_hp.selected  a{ 
+	text-decoration: none;
+	/*
+	color: #6f879a;
+	*/
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 50px 13px 0 13px;
+	}
+.ipc_menu_hp.selected li.ipc_menu2_hp a { 
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #002b4d;
+	padding: 5px 13px 0 13px;
+}
+.ipc_menu_hp a:hover {	
+	color: #6f879a;
+	width:auto ;
+	height:110px;
+	background-image: url('ipc_sfondo_menu.png');
+	background-repeat:repeat-x;
+	text-decoration: none;
+	/*background-position: 0px 30px;*/
+}
+
+.ipc_menu2_hp {
+	font-family: Verdana;
+	font-size: 12pt;
+	font-weight: normal;
+	color: #002b4d;
+	padding: 5px 15px 0px 5px;
+	}
+	
+.ipc_menu2_hp a{
+	display:block;
+	height:	auto;
+	width: auto;
+	font-family: Verdana;
+	font-weight: normal;
+	font-size: 10pt;
+	padding: 5px 15px 0px 5px;
+	color: #002b4d;
+	}
+.ipc_menu2_hp a:hover {	
+	text-decoration: underline;
+	color: #002b4d;
+	width:auto;
+	height:auto;
+	background:none;
+}	
+.ipc_menu2_hp a:hover.ancestor {	
+	text-decoration: underline;
+}
+.ipc_menu2_hp.selected {
+font-family: Verdana;
+	font-size: 12pt;
+	font-weight: normal;
+	color: #002b4d;
+	padding: 5px 15px 0px 0;
+	text-decoration: underline;
+}
+.ipc_menu2_hp.selected  li {}
+.ipc_menu2_hp.selected a{
+	display:block;
+	height:	auto;
+	width: auto;
+	font-family: Verdana;
+	font-size: 12pt;
+	font-weight: normal;
+	padding: 5px 15px 0px 5px;
+	color: #002b4d;
+	}
+
+.ipc_menu2_hp.selected a:hover {	
+	text-decoration: underline;
+	color: #002b4d;
+	width:auto;
+	height:auto;
+	background-repeat:no-repeat;
+}	
+.ipc_menu_hp ul  {
+width:auto;
+}
+.sf-grey {
+	position:absolute;
+	left: 250px;
+	font-family: Verdana;
+	font-size: 12pt;
+	font-weight: normal;
+}
+
+.sf-grey ul {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	z-index: 9;
+	height:100%;
+	position:relative;
+}
+
+.sf-grey ul li{
+	height:32px; /* chrome trick */
+}
+.sf-grey ul li ul li {
+height:27px;
+width:190px;
+}
+
+.sg-grey li li a {
+	margin:0px;
+}
+.sf-grey ul li ul {
+	width:auto;
+	margin:0;
+	overflow:visible;
+}
+.sf-grey ul li ul li{
+	background-image: none;
+	font-size:12pt;
+	background-color:#cccccc;
+}
+.sf-grey ul li ul li a{
+text-indent:0px;
+}
+.sf-grey ul li ul li  a:hover{
+}
+
+
+.sf-grey ul ul {
+	top: 110px;
+	position: absolute;
+	left: -999em;
+	width: auto;
+	margin: 0;
+	padding: 0 0 6px 0;
+	height:auto;
+}
+	
+.sf-grey ul ul ul {
+	margin: -26px 0 0 170px;
+}
+
+.sf-grey li {
+	float: left;
+	position: relative;
+}
+
+.sf-grey li li {
+	float: left;
+	padding: 0;
+}
+.sf-grey li li a, 
+.sf-grey li li a:visited, 
+.sf-grey li li a:hover {
+}
+
+.sf-grey li li a:visited{
+text-decoration:none;}
+ 
+.sf-grey li li a:hover {
+	text-decoration:underline;
+}
+
+.sf-grey li:hover ul ul, 
+.sf-grey li:hover ul ul ul,
+.sf-grey li:hover ul ul ul ul,  
+.sf-grey li.wpmhover ul ul, 
+.sf-grey li.wpmhover ul ul ul, 
+.sf-grey li.wpmhover ul ul ul ul {
+	left: -999em;
+}
+
+.sf-grey li:hover ul, 
+.sf-grey li li:hover ul, 
+.sf-grey li li li:hover ul, 
+.sf-grey li li li li:hover ul,
+.sf-grey li.wpmhover ul, 
+.sf-grey li li.wpmhover ul, 
+.sf-grey li li li.wpmhover ul,
+.sf-grey li li li li.wpmhover ul{
+	left: 0;
+}
+
+
+.sf-grey li.wpmhover {
+	visibility: inherit;
+	background: #cccccc;
+}
+
+
+.sf-grey li li {
+	border-left: 0;
+	border-right: 0;
+	border-top: 0px solid #a9a9a9;
+	border-bottom: 0px solid #778899;
+}
+
+.sf-grey ul ul {
+	border-right: 0px solid #778899;
+	background: #cccccc;
+}
+
+.sf-grey li.right {
+	float: right;
+}
+
+.sf-grey form {
+	margin: 0;
+	padding: 4px 10px 0;
+}
+
+.sf-grey form input {
+	border: 0;
+}
+
+.sf-grey-after {
+	clear: both;
+	margin: 0 0px 0 0px;
+	height: 0px;
+	border-top: 0px solid #778899;
+}
+.sf-grey-before {
+}
+
+
+.sf-grey li.current-cat, 
+.sf-grey li.current-cat-parent, 
+.sf-grey li.current_page_item, 
+.sf-grey li.current_page_parent,
+.sf-grey li.current_page_ancestor  {
+	background-color: #cccccc;
+	color:#333333;
+	background-image: url('menu_divider.jpg');
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 145px; 
+}
+.ipc_menu_hp li.current_page_parent a:link, 
+.ipc_menu_hp li.current_page_parent a:active, 
+ul.ipc_menu_hp li.current_page_parent a:hover, 
+ul.ipc_menu_hp li.current_page_parent a:visited, 
+ul.ipc_menu_hp li.current_page_parent {
+background: #00ffff !important;
+}
+ul li li.current_page_parent a:link, 
+.ipc_menu_hp li.current_page_parent a:active, 
+ul.ipc_menu_hp li.current_page_parent a:hover, 
+ul.ipc_menu_hp li.current_page_parent a:visited, 
+ul.ipc_menu_hp li.current_page_parent {
+background: #00ffff !important;
+}
