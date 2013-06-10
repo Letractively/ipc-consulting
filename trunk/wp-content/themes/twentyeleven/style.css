@@ -566,7 +566,7 @@ SPAN.aevo_news_slider2_content_link_hp{font-family: Georgia; font-size: 8pt;colo
 .focus_data{	margin-top: 38px;	margin-left: 14px;	font-family: verdana;	font-size: 13px;	font-weight: normal;}
 .corpo2{	font-family: verdana;	font-weight: normal;	font-size: 13px;	line-height: normal;	float: left;	margin-left: 14px;	margin-right: 50px;	height: 48px;overflow: hidden;}
 .pulsante_continua{		margin-left: 14px;	margin-top:  30px;	float: left;}
-/******************************************************************	BANNER  HP*******************************************************************/.ipc_banner_hp{	width:300px;	height:201px;	overflow:hidden;	font-family: Verdana; 	font-size: 14px;	color:#003366;	float:left;	margin-top: 30px;	background-image: url('images/ipc_banner_hp_background.png');}
+/******************************************************************	BANNER  HP*******************************************************************/.ipc_banner_hp{	width:300px;	height:201px;	overflow:hidden;	font-family: Verdana; 	font-size: 14px;	color:#003366;	float:left;	margin-top: 55px;	background-image: url('images/ipc_banner_hp_background.png');}
 .ipc_banner_content_page{width: 145px;height: 60px;margin-top: 80px;margin-left: 24px;font-family: verdana;font-weight: normal;font-size: 10pt;line-height: normal;}
 .banner_pulsante_continua{margin-left: 20px;margin-top: 5px;}
 /******************************************************************	FOOTER*******************************************************************/	

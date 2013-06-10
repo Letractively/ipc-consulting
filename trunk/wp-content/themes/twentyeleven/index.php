@@ -34,17 +34,17 @@ get_header();
 						if ( $my_query->have_posts()) {
 							$my_query->the_post();
 							$post_ide=$my_query->post->ID;
-							echo '<a href="'.get_permalink($post_ide).'">';
-								echo '<span class="ipc_desc_hp_link">';
-									echo $post->post_excerpt;
-								echo '</span>';	
-							echo '</a>';	
+							//echo '<a href="'.get_permalink($post_ide).'">';
+							//	echo '<span class="ipc_desc_hp_link">';
+									echo $post->post_content;
+							//	echo '</span>';	
+							//echo '</a>';	
 						} else {
 							echo "ipc descrizione hp non definito !!";
 						}
 				wp_reset_query();
 				?>
-				<div id="ipc_desc_hp_img"> </div>
+				<div id="ipc_desc_hp_img" style="display:none"> </div>
 			</div>
 	<!-- servizi hp -->	
 			<?php ipc_servizi_hp_box() ?>
