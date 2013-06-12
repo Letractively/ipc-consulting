@@ -30,7 +30,7 @@ jQuery(function( $ ){
         navigation:'#navi li a',
         duration:700,// Length of the animation (if you scroll 2 axes and use queue, then each axis take half this time)
         force:true, // Force a scroll to the element specified by 'start' (some browsers don't reset on refreshes)
-        interval:6000,
+        //interval:6000,
 		step:1,
         //queue:false,// We scroll on both axes, scroll both at the same time.
         //event:'click',// On which event to react (click is the default, you probably won't need to specify it)
