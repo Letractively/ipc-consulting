@@ -30,7 +30,7 @@ get_header();
 	<!-- descrizione IPC hp -->	
 			<div class="ipc_desc_hp">
 				<?php 
-					$my_query = new WP_Query( 'name=chi-siamo' );
+					$my_query = new WP_Query( 'name=breaking-news' );
 						if ( $my_query->have_posts()) {
 							$my_query->the_post();
 							$post_ide=$my_query->post->ID;
@@ -40,7 +40,7 @@ get_header();
 							//	echo '</span>';	
 							//echo '</a>';	
 						} else {
-							echo "ipc descrizione hp non definito !!";
+							echo "ipc breaking news hp non definito !!";
 						}
 				wp_reset_query();
 				?>

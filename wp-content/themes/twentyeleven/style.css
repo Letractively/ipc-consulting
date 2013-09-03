@@ -566,7 +566,7 @@ SPAN.aevo_news_slider2_content_link_hp{font-family: Georgia; font-size: 8pt;colo
 .focus_data{	margin-top: 38px;	margin-left: 14px;	font-family: verdana;	font-size: 13px;	font-weight: normal;}
 .corpo2{	font-family: verdana;	font-weight: normal;	font-size: 13px;	line-height: normal;	float: left;	margin-left: 14px;	margin-right: 50px;	height: 48px;overflow: hidden;}
 .pulsante_continua{		margin-left: 14px;	margin-top:  30px;	float: left;}
-/******************************************************************	BANNER  HP*******************************************************************/.ipc_banner_hp{	width:300px;	height:201px;	overflow:hidden;	font-family: Verdana; 	font-size: 14px;	color:#003366;	float:left;	margin-top: 55px;	background-image: url('images/ipc_banner_hp_background.png');}
+/******************************************************************	BANNER  HP*******************************************************************/.ipc_banner_hp{	width:300px;	height:201px;	overflow:hidden;	font-family: Verdana; 	font-size: 14px;	color:#003366;	float:left;	margin-top: 30px;	background-image: url('images/ipc_banner_hp_background.png');}
 .ipc_banner_content_page{width: 145px;height: 60px;margin-top: 80px;margin-left: 24px;font-family: verdana;font-weight: normal;font-size: 10pt;line-height: normal;}
 .banner_pulsante_continua{margin-left: 20px;margin-top: 5px;}
 /******************************************************************	FOOTER*******************************************************************/	
@@ -757,8 +757,7 @@ ul.social32 li a.rss{background-position:-456px 0px}
 #area_riservata1 {	border:none;	background: url('images/ipc_area_riservata.png');	width:143px;height: 187px;	text-align: left;	padding-left: 3px;	}
 #area_riservata1 a{	color:red;}
 #area_riservata1 {	position: relative;	float:left;}
-
-
+#barra_bianca {background: url('images/ipc_area_riservata_02.png');height:5px;background-repeat: no-repeat;margin-left: 3px;margin-top: 3px;}
 input[type="button"], button {padding: 0;}
 .apri{ font-size: 12px;font-family: Verdana;margin-top: 3px;cursor: pointer;display: block;width: 149px;height: 32px;}
 .chiudi{ font-size:12px; color:#ffffff; font-weight:bold; position:absolute; right:2%; top:3%;  cursor:pointer;}
@@ -766,13 +765,62 @@ input[type="button"], button {padding: 0;}
  #box{ width: 380px;height: 250px;background-color: #737373;display: none;z-index: +300;position: absolute;left: 60%;top: 35%;-moz-border-radius: 15px;-webkit-border-radius: 15px;border-radius: 15px;}
 .titolo_box{font-size: 10px;font-family: Verdana;font-weight: bold;margin-top: 20px;margin-left: 10px;color: whiteSmoke;}
 #accesso_riservato{color:#FFFFFF;font-family: verdana;font-size: 9px;text-transform: uppercase;margin: 10px 0 0 5px;width: 100%;height:14px;background-image:url('images/area_riservata.png');background-repeat:no-repeat;}
-#frmlogin{font-family: verdana;font-size: 10px;color: white;margin-left: 5px;margin-top: 20px;margin-right: 10px;}
-.login_user{font-family: verdana;font-size: 10px;padding: 0px;font-family: verdana;height: 21px;width: 123px;}
-.login_pw{font-family: verdana;font-size: 10px;margin-top: 10px;padding: 0px;font-family: verdana;height: 21px;width: 123px;}
+#frmlogin{font-family: verdana;font-size: 10px;color: white;margin-top:15px;margin-right: 5px;}
+.login_user{font-family: verdana;font-size: 10px;padding: 0px;height: 21px;width:96%;}
+.login_pw{font-family: verdana;font-size: 10px;margin-top: 10px;padding: 0px;font-family: verdana;height: 21px;width: 96%;}
 .invio{font-family: verdana;font-size: 10px;color: white;}
-.invio1{border: none;background-color: red;cursor: pointer;font-family: verdana;font-size: 9px;color: white;height:21px;width:38px;margin-top: 8px;}
-.recupera{font-family: verdana;font-size: 9px;color: white;border: none;background-color: #737373;height:21px;width:78px;cursor: pointer;float: right;margin-top: 8px;}
-#iscrizione{color: #003366;font-family: verdana;font-size: 11px;text-transform: uppercase;width: 100%;position: relative;font-weight: bold;line-height: 1.2em;margin-top:8px;margin-left: 3px;}
+.invio1{border: none;background-color: red;cursor: pointer;font-family: verdana;font-size: 9px;color: white;height:21px;width:38px;margin-top: 5px;}
+.recupera{font-family: verdana;font-size: 9px;color: white;border: none;background-color: #737373;height:21px;width:78px;cursor: pointer;float: right;margin-top: 5px;}
+#recupera1{font-family: verdana;font-size: 9px;color: white !important;padding: 3px 6px 1px 6px;float:left;}
+.recupera a:hover, a:active{text-decoration:none;}
+#iscrizione{color: #003366;font-family: verdana;font-size: 8px;text-transform: uppercase;width: 100%;position: relative;font-weight: bold;line-height: 1.2em;margin-top:3px;margin-left: 3px;}
+#seleziona {font-family: verdana;font-size: 10px;padding: 0px;height: 21px;width: 99%;margin-bottom: 5px;/*background-color: rgb(250, 255, 189);*/
+border-bottom-style: inset;
+border-bottom-width: 2px;
+border-image-outset: 0px;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(238, 238, 238);
+border-left-style: inset;
+border-left-width: 2px;
+border-right-color: rgb(238, 238, 238);
+border-right-style: inset;
+border-right-width: 2px;
+border-top-color: rgb(238, 238, 238);
+border-top-style: inset;
+border-top-width: 2px;
+box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 1px 0px inset;}
+#seleziona.empty {
+    color: #999;
+}
+#seleziona option {
+    color: black;
+}
+/******************************************************************	AREA RISERVATA POP-UP *******************************************************************/
+
+	div#sheet{
+		float: left;
+		width:45%;
+		height: 5em;
+		/* border: 1px solid #C0C; */
+		padding: 1em 1em 1em 1em;
+		text-align: center;
+		font-size:1.3em; 
+	}
+	div#sheet_header{
+		text-align: center;
+		font-weight: bold;
+		font-style: italic;
+	}
+	
+	#facebox .content {height:200px;background: #fffbd1 !important;}
+	a.sheet_header_link:link {color: #b3220f; text-decoration: underline;} 
+	a.sheet_header_link:active {color: #b3220f; text-decoration: underline;}
+	a.sheet_header_link:visited {color: #b3220f; text-decoration: underline;}
+	a.sheet_header_link:hover {color: #b3220f; text-decoration: none;}
+
 /******************************************************************	form*******************************************************************/
 #nome{width: 280px;margin-bottom:5px;}
 #cognome {width: 280px;margin-bottom:5px;}
